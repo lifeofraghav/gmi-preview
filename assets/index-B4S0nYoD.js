@@ -1,4 +1,4 @@
-import{t as e}from"./shared-CM3211BW.js";document.querySelectorAll(`.portfolio__item[data-href]`).forEach(e=>{e.addEventListener(`click`,()=>window.location.href=e.dataset.href)});var t=document.getElementById(`homeNews`);t&&(t.innerHTML=e.slice(0,3).map(e=>`
+import{t as e}from"./shared-BpgOLpWq.js";document.querySelectorAll(`.portfolio__item[data-href]`).forEach(e=>{e.addEventListener(`click`,()=>window.location.href=e.dataset.href)});var t=document.getElementById(`homeNews`);t&&(t.innerHTML=e.slice(0,3).map(e=>`
     <a class="card" href="${e.url}" target="_blank" rel="noopener">
       ${e.file?`<div class="card__media"><img loading="lazy" src="./img/site/${e.file}" alt="" /></div>`:``}
       <div class="card__body"><h3 class="card__title-sm">${e.title}</h3></div>
